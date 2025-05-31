@@ -13,7 +13,7 @@ db.getConnection((err, connection) => {
   if (err) {
     console.error('MySQL connection failed:', err.message);
   } else {
-    console.log('Connected to MySQL database.');
+    console.log('Connected to MySQL database successfully .');
     connection.release();
   }
 });
